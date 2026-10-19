@@ -66,3 +66,15 @@ bundle-stats.json
 # Cypress
 cypress/videos
 cypress/screenshots
+
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+secrets/
+*.pem
+*.key
